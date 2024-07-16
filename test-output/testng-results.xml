@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-15T12:38:59 EDT" name="Default suite" finished-at="2024-05-15T12:38:59 EDT" duration-ms="50">
+  <suite started-at="2024-07-02T17:31:32 EDT" name="Default suite" finished-at="2024-07-02T17:31:32 EDT" duration-ms="56">
     <groups>
     </groups>
-    <test started-at="2024-05-15T12:38:59 EDT" name="Default test" finished-at="2024-05-15T12:38:59 EDT" duration-ms="50">
-      <class name="JavaPkg.E_Strings">
-        <test-method signature="StringsBasicsOne()[pri:0, instance:JavaPkg.E_Strings@4944252c]" started-at="2024-05-15T12:38:59 EDT" name="StringsBasicsOne" finished-at="2024-05-15T12:38:59 EDT" duration-ms="9" status="PASS">
+    <test started-at="2024-07-02T17:31:32 EDT" name="Default test" finished-at="2024-07-02T17:31:32 EDT" duration-ms="56">
+      <class name="JavaPkg.U_dataProvider">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:JavaPkg.U_dataProvider@d29f28]" started-at="2024-07-02T17:31:32 EDT" name="login" data-provider="getData" finished-at="2024-07-02T17:31:32 EDT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ffff@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hfghh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StringsBasicsOne -->
-        <test-method signature="StrinsSplitting_A()[pri:0, instance:JavaPkg.E_Strings@4944252c]" started-at="2024-05-15T12:38:59 EDT" name="StrinsSplitting_A" finished-at="2024-05-15T12:38:59 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:JavaPkg.U_dataProvider@d29f28]" started-at="2024-07-02T17:31:32 EDT" name="login" data-provider="getData" finished-at="2024-07-02T17:31:32 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ffff@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hfghh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StrinsSplitting_A -->
-        <test-method signature="StrinsSplitting_B()[pri:0, instance:JavaPkg.E_Strings@4944252c]" started-at="2024-05-15T12:38:59 EDT" name="StrinsSplitting_B" finished-at="2024-05-15T12:38:59 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:JavaPkg.U_dataProvider@d29f28]" started-at="2024-07-02T17:31:32 EDT" name="login" data-provider="getData" finished-at="2024-07-02T17:31:32 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[333@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33333]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StrinsSplitting_B -->
-      </class> <!-- JavaPkg.E_Strings -->
+        </test-method> <!-- login -->
+      </class> <!-- JavaPkg.U_dataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

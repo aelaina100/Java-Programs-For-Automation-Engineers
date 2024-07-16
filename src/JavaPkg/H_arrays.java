@@ -55,7 +55,9 @@ public class H_arrays {
 		}
 	}
 		
-		
+		//Extremely important (July 8th,2024)==> Create a string array and convert its elements to small/capital chacters and trim all spaces for all elements.
+        	//Tip: Can only be done by converting the created array into an arraylist and then applying stream operations on the converted array list.
+			
 	
 
 
