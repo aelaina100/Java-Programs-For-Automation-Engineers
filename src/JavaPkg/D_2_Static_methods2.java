@@ -12,7 +12,7 @@ public class D_2_Static_methods2 {
 		F_findOut(); // Accessing this method directly without creating an object. since this method is labeled as 'static'
 		// Also, accessing method 'F_findOut' via object will still work (Buy why bother if 'static' was used).
 		
-		D_2_Static_methods2  d= new D_2_Static_methods2 ();  // Creating an object of this class to access the D_explore() method that's inside it.
+		D_2_Static_methods2  d= new D_2_Static_methods2 ();  // Creating an object of this class to access the E_explore() method that's inside it.
 		d.E_explore(); // output: "This is an explanatory method" & return value is contained. To use it check out the below line.
 		
 		System.out.println("*********************************************");
@@ -26,10 +26,9 @@ public class D_2_Static_methods2 {
 	
 	public String E_explore()
 	{
-		System.out.println("This is an explaratory method");
+		System.out.println("This is an exploratory method");
 		return "This text is being returned";
 	}
-	
 	
 	
 	

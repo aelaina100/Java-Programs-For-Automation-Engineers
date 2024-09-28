@@ -2,7 +2,7 @@ package JavaPkg;
 
 /* Create the array     1 2 11 7
                         3 4 12 8
-                        5 6 13 9   */
+                        5 6 13 9       and display its numbers */   
 
 public class I_Multi_dim_arrays {
 
@@ -24,24 +24,17 @@ public class I_Multi_dim_arrays {
 		
 		
 // Display these numbers
-	for ( int i=0; i<3; i++)   // i=0  i=1  i=2
+	for ( int i=0; i<3 ; i++)   // i=0  i=1  i=2          .length is only for strings and arrays(Unidimentional only)
 	{
-		for (int j=0; j<4; j++ )   // j=0   j=1  j=2  j=4
+		for (int j=0; j<4 ; j++ )   // j=0   j=1  j=2  j=4
 		{
 			System.out.println(y[i][j]);
 	    }		
 	}
 	// display 9
-		System.out.println("");
+	    System.out.println("----------------------------");
+		System.out.println("Displaying: ");
 		System.out.println(y[2][3]);
-	
-		
-				
-				
-				
-				
-		
-
 	}
 
 }

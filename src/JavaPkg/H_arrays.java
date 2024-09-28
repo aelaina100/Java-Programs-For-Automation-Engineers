@@ -1,6 +1,8 @@
 package JavaPkg;
 //  A- Create an array that holds 5 values and print them out to the screen.
 
+import org.testng.annotations.Test;
+
 public class H_arrays {
 	public static void main (String[] args)
 	{
@@ -32,28 +34,59 @@ public class H_arrays {
 		System.out.println(values[2]);
 			
 		System.out.println("######################################################################################################");
-       
-	//	 At which index is the value of 'some number' stored at ?  (Do this later for an array of strings).
-		int someNumber= 58;
-		int counter = 0;
-		for(int i=0; i<values.length; i++)
-		{
-			int z= values[i];
-			counter++; // I made a mistake of storing it inside the first if below
-			
-			if(z==someNumber)
-			{
-				System.out.println("The value: " + someNumber+ " is stored in the index of:  " +i);
-				break;}
-
-           else if(counter==values.length) {  // if you are on the last iteration  // Note: remove the counter stuff (optimization) 
-        	   // As the argument should be 'i=length-1"
-		   System.out.println("The value of: " + someNumber+ " is NOT stored in the array to begin with");
-					
-			  }
-		   }
-		}
 	}
+	//	 At which index is the value of 'some number' stored at ?  (Below it is the same question but for an array of strings).
+		@Test
+		public  void codingTest()
+		{
+			int numbers[]= {10,22,33,44,55};
+			// at what index is the number 33 stored at ?
+			int x=33;
+			for (int i=0; i<numbers.length; i++)
+			{
+				if (numbers[i]==x)
+				{
+					System.out.println(x+ " has index of:" + i);
+				}
+				
+				else if(i==numbers.length-1) //== if on the last iteration.
+					                         // Now, controller will only reach here if x isn't in the array 
+					                          // as the last element underwent the above 'if' statement
+					                           // that returned false.
+				{
+					System.out.println(x + " does not exist in the array to start with");
+				}
+					
+			}
+			
+			
+		   }
+		
+		// At which index is the value of 'Omar' stored at ? 
+		@Test
+		public void practice()
+		{
+			String word[]= {"Ahmad", "Sami", "Omar"};
+			
+			String name= "Omar";
+			for(int i=0; i<word.length; i++)
+			{
+				if(word[i].equalsIgnoreCase(name))
+				{
+					System.out.println(name + " is in the index of: " + i );
+					break;
+				}
+				
+				else if(i==word.length-1)   
+				{
+					System.out.println(name +" is not an element in this array");
+				}
+					
+				
+			}
+		
+		} }
+	
 		
 		//Extremely important (July 8th,2024)==> Create a string array and convert its elements to small/capital chacters and trim all spaces for all elements.
         	//Tip: Can only be done by converting the created array into an arraylist and then applying stream operations on the converted array list.

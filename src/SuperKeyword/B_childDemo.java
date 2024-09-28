@@ -1,6 +1,6 @@
 package SuperKeyword;
 // And also that, you have the following class
-// predice the output
+// predict the output
 
 public class B_childDemo extends A_parentDemo {
 	
@@ -33,11 +33,10 @@ public class B_childDemo extends A_parentDemo {
 		
 		B_childDemo cd= new B_childDemo();
 		cd.getStringData();
-		cd.getData();
-		
+		cd.getData();	
 	
-		
-		
+		System.out.println("******************");
+		A_parentDemo object= new A_parentDemo();
 	}
 
 }
