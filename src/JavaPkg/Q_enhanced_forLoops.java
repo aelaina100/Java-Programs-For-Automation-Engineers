@@ -14,7 +14,7 @@ public class Q_enhanced_forLoops {
 		
 		//Now- Instead of the regular for loop expressed above, one can write an enhanced one:
 		for( String val :array) // Iterating through each element of 'array', storing it each time in 'val'
-			            // Also meaning: The increment (i++)/ decrement (i--) part & that of the condition is automatically included.	
+	     // Also meaning: The increment (i++)/ decrement (i--) part & that of the condition is automatically included.	
 		{
 			System.out.println(val); // no use for array[i] as you can observe in the regular for-loop above.
 		}

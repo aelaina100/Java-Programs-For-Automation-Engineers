@@ -13,8 +13,8 @@ public class T_forWhile {
 			i++;
 		}
 
-	 
-	System.out.println(" ");
+	System.out.println("==================================================== ");
+	
 	int count =4;
 	for (int j=0; j<count; j++)
 	{

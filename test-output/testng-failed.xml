@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaPkg.E_Strings">
+      <class name="JavaPkg.testingzzzzz">
         <methods>
-          <include name="StrinsSplitting"/>
+          <include name="P_StreamsTest"/>
         </methods>
-      </class> <!-- JavaPkg.E_Strings -->
+      </class> <!-- JavaPkg.testingzzzzz -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

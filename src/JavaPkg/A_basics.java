@@ -6,8 +6,7 @@ public class A_basics {
 		
 		B_methods m= new B_methods(); 
 	    m.validateheader();
-		
-
+	    
 	}
 
 }
