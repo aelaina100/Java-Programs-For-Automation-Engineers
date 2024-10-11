@@ -11,9 +11,11 @@ public class A_parentDemo {
 	}
 	
 	
-	public void getData()
+	public void getData() // A method
 	{
 		System.out.println(" I am some method in the parent class");
 	}
 
 }
+
+// The constructor here will never be executed.

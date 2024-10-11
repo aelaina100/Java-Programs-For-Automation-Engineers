@@ -3,11 +3,12 @@ import org.testng.annotations.Test;
 
 public class E_Strings {
 
-	@Test(enabled= true)
+	@Test(enabled= false)
 	public void StringsBasicsOne(){
 		
 		String text= "WERD"; 
-		text.length(); 
+		text.length();   // length starts from 1
+		System.out.println(text.length());
 		// Indicating that 'text' is also an object of the class "String", used to access its methods for mainpulating strings.
 		// It follows that:  String text= new String("werd"); is an equivalent line of code.Nevertheless, developers made it easier.
 		// 'String' is a pre-defined/default class present in the downloaded java packages
@@ -17,7 +18,7 @@ public class E_Strings {
 		//char f= s.charAt(8);
 		
 		
-		//Below: Display the index that the character "t" occupy.
+		//Below: Display the index that the character "t" occupies
 		System.out.println(s.indexOf("t"));
 		
 		//Below: Display the substring that starts from the 6th index and onwards.
@@ -32,9 +33,10 @@ public class E_Strings {
 		
 		// Below" convert the 's' string to capital letters and display it on the screen.
 		System.out.println(s.toUpperCase());
+		System.out.println("***********************End of Program ***************************");
 	}
 	
-@Test(enabled= false)
+@Test(enabled= true)
 public void StringBasicsTwo()
 {
 	// Styles of defining strings are:
@@ -54,11 +56,12 @@ public void StringBasicsTwo()
 	          String w= new String("Low-tone controlled speech");
 	          String x= new String("Low-tone controlled speech");
 	       //Object 'x' will NOT be created as ""Low-tone controlled speech" is already assigned to the memory object 'w'.
+	          
 }
 	
 	
-@Test
-public void StrinsSplitting_A()
+@Test(enabled= true)
+public void StringSplitting_A()
 {
 	String sent=  "One two three"; 
 	// split based on 'two'
@@ -79,15 +82,16 @@ public void StrinsSplitting_A()
 	System.out.println("============================================================================================");
 	// Now print out this string in reverse
 	String sent_reverse= "";
-	for(int i=sent.length(); i>0 ; i--)
+	for(int i=sent.length(); i>0 ; i--)  // i>0  because: x..2,1   especially that '1' has to execute. Hence > 0
 	{
 		sent_reverse= sent_reverse + sent.charAt(i-1);
 	}
 	
-	System.out.println(sent_reverse);}
+	System.out.println(sent_reverse);
+	System.out.println("***********************End of Program ***************************");}
 
 
-@Test
+@Test(enabled= false)
 public void StrinsSplitting_B()
 {
 	
@@ -100,18 +104,24 @@ public void StrinsSplitting_B()
 	
 	System.out.println(firsty);
 	System.out.println(secondy);
-	System.out.println(thirdy);        
+	System.out.println(thirdy);    
+	System.out.println("***********************End of Program ***************************");
 	}
 }
 		
 	
-		/* Crucial: Get familiar with methods, that are EXCLUSIVE to String class, such as:
+	/* Crucial: Get familiar with methods, that are EXCLUSIVE to String class, such as:
+	 * 
+	 * 	.charAt()   .indexof()  .substring()  .toLowerCase()  .toUpperCase()  .split() based on a character off course*/
+
+       //NOTE:  .indexOf() method    applies not only to "String" class but also to that of "ArrayList"
+		
+		
+		/* length  is for Strings & Arrays (Fixed-length data structure).
+		 * size()  is for ArrayLists ( A collection class that's of a variable length).
 		 * 
-		 * 	.charAt()    .indexof()  .substring()  .toLowerCase()  .toUpperCase() */
-		
-		
-		/* length  if for Strings & Arrays (Fixed-length data structure)
-		 * size()  is for ArrayLists ( A collection class that's of a variable length)  */    
+		 * indexOf()  applies to "String" & "ArrayList" classes. For arrays (Fixed-length) data structure, one needs to iterate/ loop
+		 * through the elements (In order to acquire the index                                                              */    
 	   
 		 
 

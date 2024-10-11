@@ -9,6 +9,7 @@ public class son extends Grandfather  {
 		s.country();
 		System.out.println(s.z);
 		
+		
 	}
 	
 	public void activities()
