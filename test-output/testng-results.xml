@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-06T23:14:58 EST" name="Default suite" finished-at="2024-11-06T23:14:58 EST" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2024-11-06T23:14:58 EST" name="Default test" finished-at="2024-11-06T23:14:58 EST" duration-ms="45">
+      <class name="JavaPkg.interview">
+        <test-method signature="testing()[pri:0, instance:JavaPkg.interview@be35cd9]" started-at="2024-11-06T23:14:58 EST" name="testing" finished-at="2024-11-06T23:14:58 EST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- JavaPkg.interview -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
