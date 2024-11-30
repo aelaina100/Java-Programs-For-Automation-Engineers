@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 public class Q_enhanced_forLoops {
 	//Simply have a look at the below lines of code
 

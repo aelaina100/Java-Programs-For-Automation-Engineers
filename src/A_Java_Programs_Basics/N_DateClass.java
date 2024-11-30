@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 import java.text.SimpleDateFormat;
 import java.util.Date;  //Important: Util package "jave.util" contains the date class & the 'collections' framework.
 

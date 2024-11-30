@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 
 public class D_1methods2 {
 	public int validateResults()

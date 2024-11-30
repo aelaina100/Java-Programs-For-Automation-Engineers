@@ -12,9 +12,10 @@ public class B_childDemo extends A_parentDemo {
 		          // by typing it out in here.This works as long as we are extending
 		          // PLUS ALWAYS remember that whenever you use the super() method in child constructor, then it should always be 
 		          // written in the first line inside the child constructor
-		System.out.println("Child class constructor");
-		
+		System.out.println("Child class constructor");	
 	}
+	
+	
 	
 	public void getStringData()
 	{
@@ -26,9 +27,9 @@ public class B_childDemo extends A_parentDemo {
 	public void getData()
 	{
 		super.getData();       
-		System.out.println(" I am in the child class");
-		
+		System.out.println(" I am in the child class");	
 	}
+	
 	
 	public static void main(String[] args) {
 		
@@ -38,7 +39,6 @@ public class B_childDemo extends A_parentDemo {
 	   
 		System.out.println("******************");
 		A_parentDemo object= new A_parentDemo();
-		
 	}
 
 }

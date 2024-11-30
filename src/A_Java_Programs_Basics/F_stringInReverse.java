@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 
 // print out 'Print me in reverse' in reverse
 public class F_stringInReverse {

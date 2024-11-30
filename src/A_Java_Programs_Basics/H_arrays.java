@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 //  A- Create an array that holds 5 values and print them out to the screen.
 
 import org.testng.annotations.Test;

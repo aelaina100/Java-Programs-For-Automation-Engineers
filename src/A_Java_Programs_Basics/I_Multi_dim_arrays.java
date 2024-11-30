@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 
 /* Create the array     1 2 11 7
                         3 4 12 8
